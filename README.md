@@ -42,8 +42,8 @@ Este projeto oferece as seguintes funcionalidades:
 ### 1. 🔑 Pré-requisitos **(Tecnologias)**
 Esses são os nossos pré-requisitos, eles garantem uma base sólida para colaboração, ajudando a evitar erros e facilitando a contribuição:
 
-- A geração do site estático é realizada utilizando o [DOCSIFY](https://docsify.js.org)
-- 
+- [NODE.JS](https://nodejs.org/)  é necessário para o Docsify, pois ele usa JavaScript e depende do npm para instalação e execução.
+- [DOCSIFY](https://docsify.js.org) É ultilizado para geração do site estático do projeto
 
 <!-- Adiciona a funçao de copiar o link do repositorio -->
 ### 2. 📍 Clonar o Repositório
@@ -57,22 +57,62 @@ git clone https://github.com/UnBArqDsw2025-1-Turma01/2025.1-T01-_G2_PinacotecaOn
   <h2>⚙️ Configurações do projeto </h2>
 </div>
 
-### Instalando o docsify
+### 🔧 Guia de Instalação do Node.js
+Se você ainda não tem o Node.js instalado, siga os passos abaixo:
 
-Execute o comando:
+### 1️⃣ Baixar o instalador
+Acesse o site oficial do Node.js e baixe a versão recomendada para seu sistema operacional:
+[Node.js Download](https://nodejs.org/)
 
-```shell
-npm i docsify-cli -g
+### 2️⃣ Instalar o Node.js
+Execute o instalador e siga as instruções:
+- No Windows: avance pelo assistente de instalação.
+- No macOS: arraste o Node.js para a pasta de Aplicações.
+- No Linux: utilize o gerenciador de pacotes apropriado (veja abaixo).
+
+### 3️⃣ Verificar a instalação
+Após a instalação, abra o terminal e digite:
+```sh
+node -v
+```
+Se aparecer a versão do Node.js, a instalação foi bem-sucedida.
+
+### 📌 Instalar no Linux via Terminal
+Para sistemas baseados em Debian/Ubuntu:
+```sh
+sudo apt update && sudo apt install -y nodejs npm
+```
+Para sistemas baseados em Arch:
+```sh
+sudo pacman -S nodejs npm
+```
+Para Fedora:
+```sh
+sudo dnf install -y nodejs npm
+```
+### 1️⃣ Instalar o Docsify globalmente
+
+Se ainda não tiver o Docsify instalado, abra o terminal e execute o seguinte comando:
+```sh
+npm install -g docsify-cli
 ```
 
-### Executando localmente
-
-Para iniciar o site localmente, utilize o comando:
-
-```shell
-docsify serve ./docs
+### 2️⃣ Rodar o servidor local
+Para visualizar a documentação, execute:
+```sh
+docsify serve
+```
+Isso iniciará um servidor local, geralmente acessível em:
+```
+http://localhost:3000
+```
+### 🌐 Outras Formas de Acesso
+O projeto já esteja hospedado, você pode acessá-lo diretamente pelo link:
+```
+link nosso projeto aqui
 ```
 
+  
 <div align="center">
   <h2>👩‍💻 Contribuidores </h2>
 </div> 

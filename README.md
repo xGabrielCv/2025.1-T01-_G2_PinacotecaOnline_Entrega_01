@@ -42,7 +42,7 @@ Este projeto oferece as seguintes funcionalidades:
 ### 1. 🔑 Pré-requisitos **(Tecnologias)**
 Esses são os nossos pré-requisitos, eles garantem uma base sólida para colaboração, ajudando a evitar erros e facilitando a contribuição:
 
-- [NODE.JS](https://nodejs.org/)  é necessário para o Docsify, pois ele usa JavaScript e depende do npm para instalação e execução.
+- [NODE.JS](https://nodejs.org/) Docsify pode ser usado sem Node.js, mas o Node.js facilita a instalação e a execução de um servidor local.
 - [DOCSIFY](https://docsify.js.org) É ultilizado para geração do site estático do projeto
 
 <!-- Adiciona a funçao de copiar o link do repositorio -->

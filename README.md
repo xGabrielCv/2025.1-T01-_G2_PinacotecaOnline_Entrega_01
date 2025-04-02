@@ -78,13 +78,17 @@ docsify serve ./docs
 </div> 
 <!-- Foto dos participantes do grupo -->
 <div align="center"> 
- <img src="https://github.com/xGabrielCv.png" width="100"/>
- <img src="" width="100" />
- <img src="" width="100"/>
- <img src="" width="100"/>
- <img src="" width="100"/>
- <img src="" width="100"/>
- <img src="" width="100"/>
+ <img src="https://github.com/xGabrielCv.png" width="80"/>
+<img src="https://github.com/alanagabriele.png" width="80" />
+<img src="https://github.com/Danizelle.png" width="80" />
+<img src="https://github.com/DaviRogs.png" width="80" />
+<img src="https://github.com/fsousac.png" width="80" />
+<img src="https://github.com/LeanArs.png" width="80" />
+<img src="https://github.com/akaeboshi.png" width="80" />
+<img src="https://github.com/m4rllon.png" width="80" />
+<img src="https://github.com/mateuscavati.png" width="80" />
+<img src="https://github.com/renantfm4.png" width="80" />
+
 </div>
 <div align="center">
   <h2>📄 Documentação </h2>

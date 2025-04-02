@@ -17,7 +17,8 @@
 <div align="center">
   <h2>🎯 Objetivos </h2>
 </div>
-• 
+• Pinacoteca Online é um projeto em constante evolução, vinculado à disciplina "Arquitetura e Desenho de Software". Seu objetivo principal é proporcionar uma experiência digital interativa para explorar obras de arte em uma pinacoteca virtual. A plataforma permite que os usuários acessem uma vasta coleção de pinturas, esculturas e outras formas de arte, com descrições detalhadas e ferramentas de navegação imersiva. O projeto busca democratizar o acesso à arte e promover a apreciação cultural através de tecnologias web modernas. 🚀🎨
+
 <!-- Título centralizado -->
 <div align="center">
   <h2>👩🏾‍💻 Funcionalidades </h2>
@@ -25,23 +26,23 @@
 
 Este projeto oferece as seguintes funcionalidades:
 
-• 
+• **Exploração de Obras de Arte**: Os usuários podem visualizar uma coleção digital de pinturas, esculturas e outras formas de arte disponíveis na Pinacoteca Online.
 
-• 
+• **Informações Detalhadas**: Cada obra possui descrições completas, incluindo informações sobre o artista, período histórico, estilo e técnica utilizada.
 
-• 
+• **Navegação Interativa**: A interface permite explorar as obras por categorias, artistas e períodos, facilitando a descoberta de novas peças.
 
-•
+• **Experiência Imersiva**: O site oferece recursos interativos, como imagens em alta resolução e tours virtuais para aprimorar a experiência do usuário.
 
 <!-- Título centralizado -->
 <div align="center">
   <h2>🤞 Como executar o projeto </h2>
 </div>
 
-### 1. 🔑 Pré-requisitos
+### 1. 🔑 Pré-requisitos **(Tecnologias)**
 Esses são os nossos pré-requisitos, eles garantem uma base sólida para colaboração, ajudando a evitar erros e facilitando a contribuição:
 
-- 
+- A geração do site estático é realizada utilizando o [DOCSIFY](https://docsify.js.org)
 - 
 
 <!-- Adiciona a funçao de copiar o link do repositorio -->
@@ -56,7 +57,21 @@ git clone https://github.com/UnBArqDsw2025-1-Turma01/2025.1-T01-_G2_PinacotecaOn
   <h2>⚙️ Configurações do projeto </h2>
 </div>
 
-• 
+### Instalando o docsify
+
+Execute o comando:
+
+```shell
+npm i docsify-cli -g
+```
+
+### Executando localmente
+
+Para iniciar o site localmente, utilize o comando:
+
+```shell
+docsify serve ./docs
+```
 
 <div align="center">
   <h2>👩‍💻 Contribuidores </h2>
